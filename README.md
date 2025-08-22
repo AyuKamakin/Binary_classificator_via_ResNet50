@@ -72,7 +72,6 @@ Optimizer: Adam
 Scheduler: step_size=7, gamma = 0.1
 Criterion: CrossEntropyLoss
 ```
-- This indicates **high accuracy** and excellent class separation.  
 
 ### 6. Test Predictions
 - Test images are loaded from `test/` folder.  
