@@ -2,8 +2,8 @@
 In this project, I train a ResNet50 via PyTorch to determine whether a person is present in a photo, using a dataset of approximately 10,000 images.
 
 # Achieved Results
-**Validation Accuracy: 0.897**
-**ROC AUC Score: 0.955.**
+Validation Accuracy: **0.897** <br>
+ROC AUC Score: **0.955.**
 
 
 ## Quick Start
