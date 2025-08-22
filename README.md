@@ -1,6 +1,10 @@
 # Binary_classificator_via_ResNet50
 In this project, I train a ResNet50 via PyTorch to determine whether a person is present in a photo, using a dataset of approximately 10,000 images.
 
+# Achieved Results
+**Validation Accuracy: 0.897**
+**ROC AUC Score: 0.955.**
+
 
 ## Quick Start
 ```bash
@@ -60,10 +64,13 @@ Run the notebook cells sequentially. Exit by stopping the notebook kernel.
   - `ROC AUC Score`  
 - Also extracts **probabilities for class 1** (person) for inspection.  
 
-**Results achieved:**
+**Best parameters:**
 ```
-Validation Accuracy: 0.897
-ROC AUC Score: 0.955
+Learning rate: 5e-7
+Batch size: 64
+Optimizer: Adam
+Scheduler: step_size=7, gamma = 0.1
+Criterion: CrossEntropyLoss
 ```
 - This indicates **high accuracy** and excellent class separation.  
 
